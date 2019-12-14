@@ -1,0 +1,14 @@
+{
+  "name": "calculator",
+  "version": "1.0.0",
+  "description": "Simple calculator",
+  "main": "calculator.html",
+  "scripts": {
+    "test": "jest"
+  },
+  "author": "Daniel Bartholomae (daniel@bartholomae.name)",
+  "license": "MIT",
+  "devDependencies": {
+    "jest": "^24.9.0"
+  }
+}
