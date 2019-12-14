@@ -1,4 +1,4 @@
-# Calculator Frontend Kata
+# Calculator
 
 Welcome to CalcInt! Unfortunately our last developer just left the company. She was responsible for our main product,
 the calculator.

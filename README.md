@@ -18,7 +18,7 @@ to focus on individual steps, e. g. to just refactor the code without having to 
 
 The following katas currently exist in this repository:
 
-### Calculator Frontend Kata
+### [Calculator](./calculator/README.md)
 
 A single html file with a calculator that is missing a faculty function. This kata can give insight into
 - writing end-to-end tests for html
