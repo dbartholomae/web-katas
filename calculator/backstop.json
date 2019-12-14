@@ -1,0 +1,26 @@
+{
+  "id": "calculator",
+  "viewports": [
+    {
+      "label": "tablet",
+      "width": 1024,
+      "height": 768
+    }
+  ],
+  "scenarios": [
+    {
+      "label": "Calculator",
+      "url": "http://host.docker.internal:5000",
+      "selectors": [".calculator"]
+    }
+  ],
+  "paths": {
+    "bitmaps_reference": "bitmaps-reference",
+    "bitmaps_test": "bitmaps-test",
+    "html_report": "backstop-report"
+  },
+  "engine": "puppeteer",
+  "engineOptions": {
+    "args": ["--no-sandbox"]
+  }
+}

@@ -1,4 +1,10 @@
+# Dependencies
 node_modules
 
+# Backstop
+backstop-report
+bitmaps-test
+
+# Lock files
 package-lock.json
 yarn.lock

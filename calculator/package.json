@@ -4,11 +4,16 @@
   "description": "Simple calculator",
   "main": "calculator.html",
   "scripts": {
+    "backstop": "backstop test --docker",
+    "approve": "backstop approve --docker",
+    "start": "serve calculator.html",
     "test": "jest"
   },
   "author": "Daniel Bartholomae (daniel@bartholomae.name)",
   "license": "MIT",
   "devDependencies": {
-    "jest": "^24.9.0"
+    "backstopjs": "^4.4.2",
+    "jest": "^24.9.0",
+    "serve": "^11.2.0"
   }
 }
