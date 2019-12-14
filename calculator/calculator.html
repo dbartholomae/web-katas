@@ -10,13 +10,13 @@
     }
 
     .calculator {
+      margin: 10px;
+      background-color: lightgrey;
+      max-width: 700px;
+      width: auto;
       display: grid;
-      grid-template:
-          "h h" auto
-          "d d" auto
-          "n b" auto
-          / auto 150px
-    ;
+      grid-template: "h h" auto "d d" auto "n b" auto
+          / auto 150px;
     }
 
     .box:after {
@@ -26,13 +26,13 @@
     }
   </style>
   <script>
-    function calculate() {
+    function calculate () {
       document.querySelector('input').value = eval(document.querySelector('input').value)
     }
   </script>
 </head>
 <body>
-<div class="calculator" style="margin: 10px; background-color: lightgrey; max-width: 700px; width: auto;">
+<div class="calculator">
   <h1 style="text-align: center; grid-area: h">Calculator</h1>
   <input style="margin: 10px; grid-area: d; padding: 5px; width: calc(100% - 20px); font-size: 2rem" type="text" />
   <div style="display: grid; grid-area: n; grid-template-columns: 1fr 1fr 1fr; direction: rtl;">
