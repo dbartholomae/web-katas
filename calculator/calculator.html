@@ -26,23 +26,6 @@
     }
   </style>
   <script>
-    // Calculator
-    function add (a, b) {
-      return a + b
-    }
-
-    function mult (a, b) {
-      return a * b
-    }
-
-    function minus (a, b) {
-      return b - a
-    }
-
-    function divide (a, b) {
-      return a / b
-    }
-
     // From https://www.freecodecamp.org/news/how-to-factorialize-a-number-in-javascript-9263c89a4b38/
     function factorialize(num) {
       // If the number is less than 0, reject it.
@@ -80,21 +63,6 @@
         If we sum up all the calls in one line, we have
         (5 * (5 - 1) * (4 - 1) * (3 - 1) * (2 - 1)) = 5 * 4 * 3 * 2 * 1 = 120
         */
-      }
-    }
-
-    function calc (operator, a, b) {
-      switch (operator) {
-        case '+':
-          return add(a, b)
-        case '-':
-          return minus(a, b)
-        case '*':
-          return times(a, b)
-        case '/':
-          return divide(a, b)
-        case '!':
-          return factorialize(a)
       }
     }
 
